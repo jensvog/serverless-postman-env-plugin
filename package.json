@@ -1,0 +1,19 @@
+{
+  "name": "serverless-postman-env-plugin",
+  "version": "0.1.0",
+  "description": "Serverless plugin for creating a postman environment file from http endpoints",
+  "main": "index.js",
+  "dependencies": {
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "postman"
+  ],
+  "author": "jensvog",
+  "license": "MIT"
+}
