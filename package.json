@@ -14,6 +14,13 @@
     "serverless",
     "postman"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "git://github.com/jensvog/serverless-postman-env-plugin.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@jensvog"
+  },
   "author": "jensvog",
   "license": "MIT"
 }
