@@ -28,7 +28,7 @@ class ServerlessPlugin {
 
     const stackName = this.provider.naming.getStackName(this.options.stage);
 
-    this.provider.request('CloudFormation', 'describeStacks', { stackName }, this.options.stage, this.options.region)
+    this.provider.request('CloudFormation', 'describeStacks', { StackName: stackName }, this.options.stage, this.options.region)
     .then(response => {
       const endpoint = response.Stacks[0].Outputs
       .find(service => service.OutputKey === 'ServiceEndpoint')
