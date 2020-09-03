@@ -55,12 +55,12 @@ class ServerlessPlugin {
               }
             })
 
-            let values = relevantApiKeys
-            values.push({
-              key: 'apiurl',
-              value: endpoint,
-              enabled: true
-            })
+          let values = relevantApiKeys
+          values.push({
+            key: 'apiurl',
+            value: endpoint,
+            enabled: true
+          })
         
           var postmanenv = {
             id: uuidv4(),
