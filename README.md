@@ -5,6 +5,9 @@ deploying this plugin can be used to create a postman environment file. The file
 information about the http api endpoint. This environment file can be used to start
 postman tests against the deployed api.
 
+Beside the endpoint url information, also all related API Keys of the endpoint is printed
+in the file. This makes it possible to test protected APIs.
+
 ## Installation
 
 Plugin can be installed with:
