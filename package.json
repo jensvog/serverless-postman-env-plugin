@@ -1,6 +1,6 @@
 {
   "name": "serverless-postman-env-plugin",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Serverless plugin for creating a postman environment file from http endpoints",
   "main": "index.js",
   "dependencies": {
@@ -15,11 +15,11 @@
     "postman"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "git://github.com/jensvog/serverless-postman-env-plugin.git"
+    "type": "git",
+    "url": "git://github.com/jensvog/serverless-postman-env-plugin.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@jensvog"
+    "registry": "https://npm.pkg.github.com/@jensvog"
   },
   "author": "jensvog",
   "license": "MIT"
