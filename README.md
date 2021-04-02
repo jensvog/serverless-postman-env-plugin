@@ -5,8 +5,8 @@ deploying this plugin can be used to create a postman environment file. The file
 information about the http api endpoint. This environment file can be used to start
 postman tests against the deployed api.
 
-Beside the endpoint url information, also all related API Keys of the endpoint is printed
-in the file. This makes it possible to test protected APIs.
+Beside the endpoint url information, also all related API Keys of the endpoint are
+printed in the file. This makes it possible to test protected APIs.
 
 ## Installation
 
@@ -21,6 +21,29 @@ The plugin can be called with:
 ```serverless postmanenv```
 
 After finish a new file called `postman_environment.json` is in the workspace.
+
+## Example output
+
+An example `postman_environment.json` file can look like this:
+
+```json
+{
+  "id": "<guid>",
+  "name": "<api-name>",
+  "values": [
+    {
+      "key": "apiKey<api-name>",
+      "value": "<api-key>",
+      "enabled": true
+    },
+    {
+      "key": "apiurl",
+      "value": "https://xxxx.execute-api.eu-central-1.amazonaws.com/dev",
+      "enabled": true
+    }
+  ]
+}
+```
 
 ## License
 
